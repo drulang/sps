@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7118E00F18F3688600AB393A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7118E00E18F3688600AB393A /* Foundation.framework */; };
+		7118E01118F3688600AB393A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7118E01018F3688600AB393A /* CoreGraphics.framework */; };
+		7118E01318F3688600AB393A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7118E01218F3688600AB393A /* UIKit.framework */; };
+		7118E01918F3688600AB393A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7118E01718F3688600AB393A /* InfoPlist.strings */; };
+		7118E01B18F3688600AB393A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118E01A18F3688600AB393A /* main.m */; };
+		7118E01F18F3688600AB393A /* SixpackSindayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118E01E18F3688600AB393A /* SixpackSindayAppDelegate.m */; };
+		7118E02218F3688600AB393A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7118E02018F3688600AB393A /* Main.storyboard */; };
+		7118E02718F3688600AB393A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7118E02618F3688600AB393A /* Images.xcassets */; };
+		7118E02E18F3688600AB393A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7118E02D18F3688600AB393A /* XCTest.framework */; };
+		7118E02F18F3688600AB393A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7118E00E18F3688600AB393A /* Foundation.framework */; };
+		7118E03018F3688600AB393A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7118E01218F3688600AB393A /* UIKit.framework */; };
+		7118E03818F3688600AB393A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7118E03618F3688600AB393A /* InfoPlist.strings */; };
+		7118E03A18F3688600AB393A /* SixpackSindayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118E03918F3688600AB393A /* SixpackSindayTests.m */; };
+		7118E04D18F3748200AB393A /* NewProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118E04C18F3748200AB393A /* NewProfileViewController.m */; };
+		7118E05018F374D900AB393A /* SixpackSindayAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118E04F18F374D900AB393A /* SixpackSindayAPI.m */; };
+		7118E05318F37B3E00AB393A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118E05218F37B3E00AB393A /* User.m */; };
+		7118E05618F37CBF00AB393A /* UserToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118E05518F37CBF00AB393A /* UserToken.m */; };
+		7118E05918F3818500AB393A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118E05818F3818500AB393A /* LoginViewController.m */; };
+		7118E05C18F4C68F00AB393A /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7118E05B18F4C68F00AB393A /* DashboardViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7118E03118F3688600AB393A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7118E00318F3688600AB393A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7118E00A18F3688600AB393A;
+			remoteInfo = SixpackSinday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7118E00B18F3688600AB393A /* SixpackSinday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SixpackSinday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7118E00E18F3688600AB393A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7118E01018F3688600AB393A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7118E01218F3688600AB393A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7118E01618F3688600AB393A /* SixpackSinday-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SixpackSinday-Info.plist"; sourceTree = "<group>"; };
+		7118E01818F3688600AB393A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7118E01A18F3688600AB393A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7118E01C18F3688600AB393A /* SixpackSinday-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SixpackSinday-Prefix.pch"; sourceTree = "<group>"; };
+		7118E01D18F3688600AB393A /* SixpackSindayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SixpackSindayAppDelegate.h; sourceTree = "<group>"; };
+		7118E01E18F3688600AB393A /* SixpackSindayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixpackSindayAppDelegate.m; sourceTree = "<group>"; };
+		7118E02118F3688600AB393A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7118E02618F3688600AB393A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7118E02C18F3688600AB393A /* SixpackSindayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SixpackSindayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7118E02D18F3688600AB393A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7118E03518F3688600AB393A /* SixpackSindayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SixpackSindayTests-Info.plist"; sourceTree = "<group>"; };
+		7118E03718F3688600AB393A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7118E03918F3688600AB393A /* SixpackSindayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixpackSindayTests.m; sourceTree = "<group>"; };
+		7118E04B18F3748200AB393A /* NewProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewProfileViewController.h; path = ProfileViewControllers/NewProfileViewController.h; sourceTree = "<group>"; };
+		7118E04C18F3748200AB393A /* NewProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewProfileViewController.m; path = ProfileViewControllers/NewProfileViewController.m; sourceTree = "<group>"; };
+		7118E04E18F374D900AB393A /* SixpackSindayAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SixpackSindayAPI.h; path = Model/SixpackSindayAPI.h; sourceTree = "<group>"; };
+		7118E04F18F374D900AB393A /* SixpackSindayAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SixpackSindayAPI.m; path = Model/SixpackSindayAPI.m; sourceTree = "<group>"; };
+		7118E05118F37B3E00AB393A /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Model/User.h; sourceTree = "<group>"; };
+		7118E05218F37B3E00AB393A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Model/User.m; sourceTree = "<group>"; };
+		7118E05418F37CBF00AB393A /* UserToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserToken.h; path = Model/UserToken.h; sourceTree = "<group>"; };
+		7118E05518F37CBF00AB393A /* UserToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserToken.m; path = Model/UserToken.m; sourceTree = "<group>"; };
+		7118E05718F3818500AB393A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7118E05818F3818500AB393A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		7118E05A18F4C68F00AB393A /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		7118E05B18F4C68F00AB393A /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7118E00818F3688600AB393A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7118E01118F3688600AB393A /* CoreGraphics.framework in Frameworks */,
+				7118E01318F3688600AB393A /* UIKit.framework in Frameworks */,
+				7118E00F18F3688600AB393A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7118E02918F3688600AB393A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7118E02E18F3688600AB393A /* XCTest.framework in Frameworks */,
+				7118E03018F3688600AB393A /* UIKit.framework in Frameworks */,
+				7118E02F18F3688600AB393A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7118E00218F3688600AB393A = {
+			isa = PBXGroup;
+			children = (
+				7118E01418F3688600AB393A /* SixpackSinday */,
+				7118E03318F3688600AB393A /* SixpackSindayTests */,
+				7118E00D18F3688600AB393A /* Frameworks */,
+				7118E00C18F3688600AB393A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7118E00C18F3688600AB393A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7118E00B18F3688600AB393A /* SixpackSinday.app */,
+				7118E02C18F3688600AB393A /* SixpackSindayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7118E00D18F3688600AB393A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7118E00E18F3688600AB393A /* Foundation.framework */,
+				7118E01018F3688600AB393A /* CoreGraphics.framework */,
+				7118E01218F3688600AB393A /* UIKit.framework */,
+				7118E02D18F3688600AB393A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7118E01418F3688600AB393A /* SixpackSinday */ = {
+			isa = PBXGroup;
+			children = (
+				7118E04418F372FE00AB393A /* ProfileControllers */,
+				7118E04318F3721D00AB393A /* Model */,
+				7118E02018F3688600AB393A /* Main.storyboard */,
+				7118E02618F3688600AB393A /* Images.xcassets */,
+				7118E01518F3688600AB393A /* Supporting Files */,
+				7118E05718F3818500AB393A /* LoginViewController.h */,
+				7118E05818F3818500AB393A /* LoginViewController.m */,
+				7118E05A18F4C68F00AB393A /* DashboardViewController.h */,
+				7118E05B18F4C68F00AB393A /* DashboardViewController.m */,
+			);
+			path = SixpackSinday;
+			sourceTree = "<group>";
+		};
+		7118E01518F3688600AB393A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7118E01D18F3688600AB393A /* SixpackSindayAppDelegate.h */,
+				7118E01E18F3688600AB393A /* SixpackSindayAppDelegate.m */,
+				7118E01618F3688600AB393A /* SixpackSinday-Info.plist */,
+				7118E01718F3688600AB393A /* InfoPlist.strings */,
+				7118E01A18F3688600AB393A /* main.m */,
+				7118E01C18F3688600AB393A /* SixpackSinday-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7118E03318F3688600AB393A /* SixpackSindayTests */ = {
+			isa = PBXGroup;
+			children = (
+				7118E03918F3688600AB393A /* SixpackSindayTests.m */,
+				7118E03418F3688600AB393A /* Supporting Files */,
+			);
+			path = SixpackSindayTests;
+			sourceTree = "<group>";
+		};
+		7118E03418F3688600AB393A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7118E03518F3688600AB393A /* SixpackSindayTests-Info.plist */,
+				7118E03618F3688600AB393A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7118E04318F3721D00AB393A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7118E04E18F374D900AB393A /* SixpackSindayAPI.h */,
+				7118E04F18F374D900AB393A /* SixpackSindayAPI.m */,
+				7118E05118F37B3E00AB393A /* User.h */,
+				7118E05218F37B3E00AB393A /* User.m */,
+				7118E05418F37CBF00AB393A /* UserToken.h */,
+				7118E05518F37CBF00AB393A /* UserToken.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7118E04418F372FE00AB393A /* ProfileControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7118E04B18F3748200AB393A /* NewProfileViewController.h */,
+				7118E04C18F3748200AB393A /* NewProfileViewController.m */,
+			);
+			name = ProfileControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7118E00A18F3688600AB393A /* SixpackSinday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7118E03D18F3688600AB393A /* Build configuration list for PBXNativeTarget "SixpackSinday" */;
+			buildPhases = (
+				7118E00718F3688600AB393A /* Sources */,
+				7118E00818F3688600AB393A /* Frameworks */,
+				7118E00918F3688600AB393A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SixpackSinday;
+			productName = SixpackSinday;
+			productReference = 7118E00B18F3688600AB393A /* SixpackSinday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7118E02B18F3688600AB393A /* SixpackSindayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7118E04018F3688600AB393A /* Build configuration list for PBXNativeTarget "SixpackSindayTests" */;
+			buildPhases = (
+				7118E02818F3688600AB393A /* Sources */,
+				7118E02918F3688600AB393A /* Frameworks */,
+				7118E02A18F3688600AB393A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7118E03218F3688600AB393A /* PBXTargetDependency */,
+			);
+			name = SixpackSindayTests;
+			productName = SixpackSindayTests;
+			productReference = 7118E02C18F3688600AB393A /* SixpackSindayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7118E00318F3688600AB393A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SixpackSinday;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = drulang;
+				TargetAttributes = {
+					7118E02B18F3688600AB393A = {
+						TestTargetID = 7118E00A18F3688600AB393A;
+					};
+				};
+			};
+			buildConfigurationList = 7118E00618F3688600AB393A /* Build configuration list for PBXProject "SixpackSinday" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7118E00218F3688600AB393A;
+			productRefGroup = 7118E00C18F3688600AB393A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7118E00A18F3688600AB393A /* SixpackSinday */,
+				7118E02B18F3688600AB393A /* SixpackSindayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7118E00918F3688600AB393A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7118E02718F3688600AB393A /* Images.xcassets in Resources */,
+				7118E01918F3688600AB393A /* InfoPlist.strings in Resources */,
+				7118E02218F3688600AB393A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7118E02A18F3688600AB393A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7118E03818F3688600AB393A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7118E00718F3688600AB393A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7118E05918F3818500AB393A /* LoginViewController.m in Sources */,
+				7118E05618F37CBF00AB393A /* UserToken.m in Sources */,
+				7118E01F18F3688600AB393A /* SixpackSindayAppDelegate.m in Sources */,
+				7118E05C18F4C68F00AB393A /* DashboardViewController.m in Sources */,
+				7118E05318F37B3E00AB393A /* User.m in Sources */,
+				7118E05018F374D900AB393A /* SixpackSindayAPI.m in Sources */,
+				7118E01B18F3688600AB393A /* main.m in Sources */,
+				7118E04D18F3748200AB393A /* NewProfileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7118E02818F3688600AB393A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7118E03A18F3688600AB393A /* SixpackSindayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7118E03218F3688600AB393A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7118E00A18F3688600AB393A /* SixpackSinday */;
+			targetProxy = 7118E03118F3688600AB393A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7118E01718F3688600AB393A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7118E01818F3688600AB393A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7118E02018F3688600AB393A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7118E02118F3688600AB393A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7118E03618F3688600AB393A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7118E03718F3688600AB393A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7118E03B18F3688600AB393A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7118E03C18F3688600AB393A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7118E03E18F3688600AB393A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SixpackSinday/SixpackSinday-Prefix.pch";
+				INFOPLIST_FILE = "SixpackSinday/SixpackSinday-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7118E03F18F3688600AB393A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SixpackSinday/SixpackSinday-Prefix.pch";
+				INFOPLIST_FILE = "SixpackSinday/SixpackSinday-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7118E04118F3688600AB393A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SixpackSinday.app/SixpackSinday";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SixpackSinday/SixpackSinday-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SixpackSindayTests/SixpackSindayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7118E04218F3688600AB393A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SixpackSinday.app/SixpackSinday";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SixpackSinday/SixpackSinday-Prefix.pch";
+				INFOPLIST_FILE = "SixpackSindayTests/SixpackSindayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7118E00618F3688600AB393A /* Build configuration list for PBXProject "SixpackSinday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7118E03B18F3688600AB393A /* Debug */,
+				7118E03C18F3688600AB393A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7118E03D18F3688600AB393A /* Build configuration list for PBXNativeTarget "SixpackSinday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7118E03E18F3688600AB393A /* Debug */,
+				7118E03F18F3688600AB393A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7118E04018F3688600AB393A /* Build configuration list for PBXNativeTarget "SixpackSindayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7118E04118F3688600AB393A /* Debug */,
+				7118E04218F3688600AB393A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7118E00318F3688600AB393A /* Project object */;
+}

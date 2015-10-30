@@ -1,0 +1,10 @@
+export SPS_CONF=.
+export SPSHOME=..
+export PYTHONPATH=../lib 
+. ../venv/bin/activate
+if (( $# == 0 ))
+then
+python -m unittest discover ./tests
+else
+python ./tests/$1
+fi

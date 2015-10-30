@@ -1,0 +1,9 @@
+Flask==0.10.1
+Flask-SQLAlchemy==1.0
+flask-restful==0.2.1
+SQLAlchemy==0.8.2
+sphinx==1.2.2
+sphinxcontrib-httpdomain==1.2.1
+redis==2.9.1
+mysql-python==1.2.5
+requests==2.3.0
